@@ -1,0 +1,208 @@
+@import url('https://fonts.googleapis.com/css2?family=Kdam+Thmor+Pro&family=PT+Sans+Narrow&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Indie Flower', cursive;
+    list-style: none;
+    color: rgb(41, 114, 41);;
+}
+
+body {
+    background-image: url('https://images2.alphacoders.com/130/1300399.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
+    width: 100%;
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: black;
+}
+
+.container-logo {
+    display: flex;
+    height: 75px;
+    justify-content: center;
+}
+
+
+.sociais {
+    width: 130px;
+    display: flex;
+    justify-content: space-between;
+}
+
+i {
+    font-size: 1.4rem;
+}
+
+i:hover {
+    color: aliceblue;
+}
+
+
+.fa-brands {
+    padding-left: 10px;
+    width: 30px;
+    height: 30px;
+}
+
+.main-container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 20px 0;
+}
+
+h2 {
+    font-family: 'PT Sans Narrow', sans-serif; 
+    margin-bottom: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: 800;
+    font-size: 3rem;
+}
+
+.main-content {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    column-gap: 20px;
+}
+
+.cards {
+    width: 230px;
+    height: 470px;
+    background-position: 50% 50%;
+    background-size: cover;
+    display: flex;
+    align-items: end;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0,5s;
+    padding: 5px;
+}
+
+.cards:hover {
+    transform: scale(1.02);
+}
+
+.character-name-bg {
+    width: 100%;
+    height: 30px;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.character-name {
+    font-family: 'PT Sans Narrow', sans-serif; 
+    color: black;
+    font-size: 2rem;
+    font-weight: 800;
+    white-space: nowrap;                  
+    overflow: hidden; 
+    text-overflow: ellipsis;
+}
+
+.buttons {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+button {
+    width: 70px;
+    height: 25px;
+    background-color: aliceblue;
+    color: black;
+    font-weight: 700;
+    border-radius: 3px;
+    cursor: pointer;
+    border: 1px solid #000;
+    outline: none;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #000;
+    color: green;
+}
+
+#back-button {
+    visibility: hidden;
+}
+
+footer {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 10px;
+    margin: 40px 0 20px 0;
+}
+
+.footer-logo {
+    font-family: 'PT Sans Narrow', sans-serif; 
+    color: white;
+    font-size: 1rem;
+    font-weight: 800;
+}
+
+.copyright {
+    font-weight: 500;
+    color: #ffff;
+}
+
+.modal {
+    visibility: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.5);
+    position: fixed;
+    top: 0;
+}
+
+.modal-content {
+    width: 15vw;
+    height: 40vh;
+    background-color: #0d0d0d;
+    border-radius: 12px;
+    display: flex;
+    flex-direction: column;
+    row-gap: 15px;
+    padding: 30px 10px;
+    align-items: center;
+}
+
+.character-image {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-position: 50% 10%;
+    background-size: cover;
+}
+
+.character-details {
+    font-family: 'PT Sans Narrow', sans-serif; 
+    font-size: 1rem;
+    font-weight: lighter;
+    color: white;
+}
